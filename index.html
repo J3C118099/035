@@ -4,9 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author">
-    <meta name="description">
-    <meta name="keyword">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -15,62 +12,247 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/style.css">
 
     <title>JLine 035</title>
-    <style>
-        body{
-			background-image:url(images/1.png);
-			background-size: cover;
-			background-attachment: scroll;
-		}
-		p{
-			color:white;
-		}
-    </style>
   </head>
+
   <body>
     
-    <div class="fh5co-loader"></div>
+    <div class="fh5co-loader">
 
-    <div class="header" id="page">
-    <header id="fh5co-header" class="fh5co-cover js-fullheight" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<nav>
-                                <a class="navbar-brand" style="color: white;" href="index.html">LOGO</a>
+        <nav class="navbar navbar-expand-lg fixed-nav py-3" style="background-color: rgba(17, 0, 255, 0);">
+            <a class="navbar-brand logo" href="#">LOGO</a>
 
-                                <p class="navbar-brand">
-                                    <a class="btn text-white" style="background-color: #013e8d;" data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                      ENTRY
-                                    </a>
-                                </p>
-                            </nav>
-						</div>
-					</div>
-				</div>
-			</div>
-        </div>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <div class="col-md-12 text-center">
-            <div class="display-t js-fullheight">
-                <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                    <h1 style="color: white;">技術が創る新しい世界</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="" class="btn ml-auto rounded-0 mv-entry">ENTRY</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="sidebarBtn" onclick="sidebarOpenClose()">&#9776;</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="section-1">
+                <div class="container">
+                    <div class="row justify-content-md-center" style="padding-top:5%;padding-bottom: 10%;">
+                        <div class="col-lg-8 pt-5">
+                            <h1 class="section-1-textjp">
+                                <center>技術が創る新しい世界</center>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center" style="padding-top: 15%;">
+                        <div class="col-lg-10 bg-white pt-5">
+                            <h1 class="section-1-texten">TECHNICAL</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
-	</header>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-12 bg-white pt-2 pb-4">
+                        <p class="section-1-textdummy pb-4">
+                            この文章はダミーです。
+                        </p>
+                        <p class="section-1-textdummy2">
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。<br>
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-    <section>
-        <div class="container">
-            
-        </div>
-    </section>
+            <div class="section-2">
+                <div class="subsection-1">
+                    <div class="row">
+                        <a href="#" class="menu-1 col-lg col-md col-sm-12">
+                            <div class="info">
+                                <p class="contents">Project File</p>
+                                <p class="number">01</p>
+                                <p class="contents">-</p>
+                                <p class="contents">タイトル</p>
+                            </div>
+                        </a>
+                        <a href="#" class="menu-2 col-lg col-md col-sm-12">
+                            <div class="info">
+                                <p class="contents">Project File</p>
+                                <p class="number">02</p>
+                                <p class="contents">-</p>
+                                <p class="contents">タイトル</p>
+                            </div>
+                        </a>
+                        <a href="#" class="menu-3 col-lg col-md col-sm-12">
+                            <div class="info">
+                                <p class="contents">Project File</p>
+                                <p class="number">03</p>
+                                <p class="contents">-</p>
+                                <p class="contents">タイトル</p>
+                            </div>
+                        </a>
+                        <a href="#" class="menu-4 col-lg col-md col-sm-12">
+                            <div class="info">
+                                <p class="contents">Project File</p>
+                                <p class="number">04</p>
+                                <p class="contents">-</p>
+                                <p class="contents">タイトル</p>
+                            </div>
+                        </a>
+                        <a href="#" class="menu-5 col-lg col-md col-sm-12">
+                            <div class="info">
+                                <p class="contents">Project File</p>
+                                <p class="number">05</p>
+                                <p class="contents">-</p>
+                                <p class="contents">タイトル</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subsection-2">
+                    <div class="image_center_text"> <br/><br/><br/><br/>
+                        <p class="text-sub-1">100年企業をめざして</p>
+                        <p class="text-sub-2">Aiming for 100 years company</p>
+                    </div>
+                </div>
+
+                <div class="subsection-3">
+                    <div class="color_center_background">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img src="img/img_7.jpg" class="img-fluid">
+                            </div>
+                            <div class="col-sm-4" style="color: #013e8d;">
+                                <h1 class="display">PROJECT<br/>STORY</h1>
+                            </div>
+                            <div class="container" style="margin-top: -2rem;">
+                                <div class="col-sm-6 offset-sm-6">
+                                    <button type="button" class="btn btn-lg btn-block p-3 rounded-0" style="background-color: #013e8d; color: white;">01   ホームページを売りたい企ホーム</button>
+                                    <button type="button" class="btn btn-lg btn-block p-3 rounded-0" style="background-color: #013e8d; color: white;">02   ホームページを売りたい企ホーム</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="subsection-4">
+                    <div class="color_center_background">
+                      <div class="row">
+                        <div class="col-sm-4" style="color: #013e8d;">
+                          <h1 class="display">WORK<br/>STYLE</h1>
+                        </div>
+                        <div class="col-sm-8">
+                          <img src="img/img_8.jpg" class="img-fluid">
+                        </div>
+                        <div class="container" style="margin-top: -2rem;">
+                          <div class="col-sm-6">
+                              <button type="button" class="btn btn-lg btn-block p-3 rounded-0" style="background-color: #013e8d; color: white;">01   ホームページを売りたい企ホーム</button>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="subsection-5">
+                    <div class="color_middle_background">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-3">
+                <div class="container"> <br/><br/><br/>
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="img/img_9.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">タイトルが入ります。</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="img/img_10.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">タイトルが入ります。</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="img/img_11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">タイトルが入ります。</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="img/img_12.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">タイトルが入ります。</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="section-4">
+                <div class="container">
+                    <h1 style="text-align: center; color: #013e8d; font-family: 'Crimson Text',Roman;">BLOG</h1>
+                    <h6 class="section-4-textjp">オウンドメディア</h6>
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4">
+                          <div class="card h-100">
+                            <img src="img/img_13.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h6 class="card-title" style="color: #013e8d;">NEWS</h6>
+                              <p class="card-text">テキストが入ります。テキストが入ります。 テキストが入ります。</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card h-100">
+                            <img src="img/img_14.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h6 class="card-title" style="color: #013e8d;">NEWS </h6>
+                              <p class="card-text">テキストが入ります。テキストが入ります。 テキストが入ります。</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card h-100">
+                            <img src="img/img_15.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h6 class="card-title" style="color: #013e8d;">NEWS</h6>
+                              <p class="card-text">テキストが入ります。テキストが入ります。 テキストが入ります。</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-secondary" style="margin-left: 645px;">MORE</button>
+            </div>
+
+            <h1 style="text-align: center; color: #013e8d; font-family: 'Crimson Text',Roman;">RECRUIT</h1>
+            <div class="section-5">
+                <div class="container">
+                    
+                </div>
+            </div>
+        </section>
 
         <div class="footer">
             <div class="card text-white" style="background-color: #002554;">
@@ -86,8 +268,19 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+        function sidebarOpenClose(){
+          if(document.getElementById("mySidebar").style.width == "250px"){
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }else{
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+        }
     
-    <!-- Custom JS -->
-    <!--script src="<?php echo base_url('assets/js/script.js'); ?>"></script-->
+        </script>
+    
   </body>
 </html>
